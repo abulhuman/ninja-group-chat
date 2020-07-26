@@ -30,3 +30,6 @@
 .chat-list {
   transition: all 0.5s ease-out;
 }
+.chat-list {
+  max-height: 60vh;
+}
