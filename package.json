@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/5H4LYNx0n3/ninja-group-chat/issues"
   },
-  "homepage": "https://github.com/5H4LYNx0n3/ninja-group-chat#readme"
+  "homepage": "https://5h4lynx0n3.github.io/ninja-group-chat",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
