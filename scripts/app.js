@@ -53,7 +53,7 @@ const username = localStorage.username
 
 // class instances
 const chatUI = new ChatUI(chatlist);
-const chatroom = new Chatroom('gaming', username);
+const chatroom = new Chatroom('general', username);
 
 // get chats and render
 chatroom.getChats((data) => chatUI.render(data));
