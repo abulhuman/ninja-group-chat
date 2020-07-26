@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
@@ -35,12 +41,18 @@
 
       <form class="new-chat my-3">
         <div class="input-group">
-          <div class="input-group-prepend">
-            <div class="input-group-text">Your Message:</div>
-          </div>
-          <input type="text" id="message" class="form-control" required />
+          <div class="input-group-prepend"></div>
+          <input
+            type="text"
+            id="message"
+            class="form-control"
+            placeholder="Say something ..."
+            required
+          />
           <div class="input-group-append">
-            <input type="submit" class="btn" value="send" />
+            <button type="submit" class="btn">
+              <i class="fas fa-paper-plane"></i>
+            </button>
           </div>
         </div>
       </form>
@@ -49,12 +61,18 @@
 
       <form class="new-name my-3">
         <div class="input-group">
-          <div class="input-group-prepend">
-            <div class="inpuy-group-text p-2">Update name:</div>
-          </div>
-          <input type="text" id="name" class="form-control" required />
+          <div class="input-group-prepend"></div>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            placeholder="Update name"
+            required
+          />
           <div class="input-group-append">
-            <input type="submit" value="update" class="btn" />
+            <button type="submit" class="btn">
+              <i class="fas fa-wrench"></i>
+            </button>
           </div>
         </div>
         <div class="update-mssg text-center my-3"></div>
