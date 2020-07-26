@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+}
+.btn {
+  background: #43d9be;
+  color: #fff;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:focus {
+  outline: none !important;
+  color: #444;
+}
+.username {
+  font-weight: bold;
+}
+.time {
+  font-size: 0.7em;
+  color: #777;
+}
+.form-control {
+  height: 40px;
+}
+
+.current {
+  background: tomato;
+}
+
+.chat-rooms button,
+.chat-list {
+  transition: all 0.5s ease-out;
+}
