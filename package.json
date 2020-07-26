@@ -1,0 +1,19 @@
+{
+  "name": "ninja-group-chat",
+  "version": "1.0.0",
+  "description": "Group chat app",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5H4LYNx0n3/ninja-group-chat.git"
+  },
+  "author": "Adem Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5H4LYNx0n3/ninja-group-chat/issues"
+  },
+  "homepage": "https://github.com/5H4LYNx0n3/ninja-group-chat#readme"
+}
